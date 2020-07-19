@@ -1,0 +1,15 @@
+.login-container {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+
+    .error-msgs {
+        margin: 20px 0 0 0;
+        color: red;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
